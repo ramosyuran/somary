@@ -1,9 +1,3 @@
-// function hover(element) {
-//     element.setAttribute('src', 'img/webdesign.svg');
-// }
-// function unhover(element) {
-//     element.setAttribute('src', 'img/webdesign1.svg');
-// }
 $(document).ready(function(){
     $("#wd").hover(
         function() {$(this).attr("src","img/webdesign.svg");},
@@ -31,3 +25,24 @@ $(document).ready(function(){
     });
 
 });
+
+$(document).ready(main);
+var contador = 1;
+function main(){
+  $('.menu_bar').click(function(){
+    if(contador == 1){
+      $('nav').animate({
+        left: '0'
+      });
+      contador = 0;
+
+    } else {
+      contador = 1;
+      $('nav').animate({
+        left: '-100%'
+      });
+
+    }
+
+  });
+}
