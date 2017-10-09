@@ -97,10 +97,88 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*REGRAS COMUNS*/
 
    body{
-
+     color: #383d3b;
+     background-color: #f7f8f9;
    }
+
+   img, figure{
+     width: 100%;
+     margin: 0;
+   }
+
+   a{
+     color: inherit;
+     text-decoration: none;
+   }
+
+   .containerindex, .follow{
+     width: 90%;
+     margin: auto;
+   }
+
+   li{
+     list-style: none;
+   }
+
+   ul{
+     padding: 0;
+   }
+
+   /*END REGRAS COMUNS*/
+
+   /*PAGINA INDEX*/
+
+   .logo1{
+     width: 200px;
+     padding: 10px;
+   }
+
+   .col-sm-12{
+     padding: 0;
+   }
+
+   .follow{
+     border-top: 4px #ff5964 solid;
+     padding: 10px 0;
+   }
+
+   .follow ul{
+     text-align: right;
+   }
+
+   .follow a{
+     color: #7c7c7c;
+     margin-left: 5px;
+   }
+
+   .follow i{
+     transition: color .2s ease-in-out;
+   }
+
+   .follow a:nth-child(1):hover i{
+     color: #3B5998;
+   }
+
+   .follow a:nth-child(2):hover i{
+     color: #4099FF;
+   }
+
+   .follow a:nth-child(3):hover i{
+     color: #dd4b39;
+   }
+
+   .follow a:nth-child(4):hover i{
+     color: #a63372;
+   }
+
+
+
+
+
+   /*END PAGINA INDEX*/
 
 
 
