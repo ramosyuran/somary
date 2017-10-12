@@ -100,7 +100,7 @@ textarea {
    /*REGRAS COMUNS*/
 
    body{
-     color: #383d3b;
+     color: #383d3c;
      /*background-color: #f7f8f9;*/
      margin: 0;
      font-family: 'Ubuntu', sans-serif;
@@ -389,7 +389,7 @@ textarea {
    .prop{
      background: #ff5964;
      width: 100%;
-     border-radius: 4%;
+     border-radius: 8px;
      text-transform: uppercase;
      padding: 15px;
      color: #eff1ed;
@@ -400,7 +400,7 @@ textarea {
      transition: all .6s ease;
    }
 
-   .prop:hover{
+   .prop:hover, #prop2:hover{
      background: #ff5964;
      opacity: 0.8;
      text-decoration: none;
@@ -412,6 +412,8 @@ textarea {
 
    .designweb h1{
      font-size: 28px;
+     color: #ff5964;
+     opacity: .9;
      text-align: center;
      text-transform: uppercase;
      line-height: 40px;
@@ -424,10 +426,61 @@ textarea {
      margin: 15px auto;
    }
 
+   .designweb h3{
+     font-size: 18px;
+     color: #7c7c7c;
+     font-weight: bold;
+   }
+
    .design1, .design2{
      border: 6px #eff1ed solid;
      margin: 15px auto;
-     padding: 10px;
+     padding: 18px;
+   }
+
+   .designweb ul li{
+     margin: 4px auto;
+   }
+
+   .design2 a{
+     color: #ff5964;
+   }
+
+   .design2 a:hover{
+     text-decoration: underline;
+   }
+
+   .meio{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     text-transform: uppercase;
+   }
+
+   #proj, #prop2{
+     padding: 15px;
+     margin: 10px 0;
+     color: #eff1ed;
+     border-radius: 10px;
+     -webkit-transition: all .6s ease; /* Safari and Chrome */
+     -moz-transition: all .6s ease; /* Firefox */
+     -ms-transition: all .6s ease; /* IE 9 */
+     -o-transition: all .6s ease; /* Opera */
+     transition: all .6s ease;
+   }
+
+   #proj:hover{
+     background: #7c7c7c;
+     opacity: 0.8;
+     text-decoration: none;
+   }
+
+   #proj{
+     background-color: #7c7c7c;
+   }
+
+   #prop2{
+     background-color: #ff5964;
    }
 
    /*END CONTAINER DESIGN WEB*/
