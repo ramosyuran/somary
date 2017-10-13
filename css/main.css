@@ -199,7 +199,7 @@ textarea {
       opacity: 0.95;
       text-align: center;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       font-weight: bold;
     }
 
@@ -210,17 +210,23 @@ textarea {
     }
 
     nav ul li a{
+      font-family: 'Poiret One', cursive;
+      font-weight: normal;
+      font-size: 22px;
+      opacity: .6;
       display: inline-block;
-      padding: 13px;
-      color: #7c7c7c;
-      -webkit-transition: all .8s ease; /* Safari and Chrome */
-      -moz-transition: all .8s ease; /* Firefox */
-      -ms-transition: all .8s ease; /* IE 9 */
-      -o-transition: all .8s ease; /* Opera */
-      transition: all .8s ease;
+      padding: 15px;
+      width: 100%;
+      color: #eff1ed;
+      -webkit-transition: all .4s ease; /* Safari and Chrome */
+      -moz-transition: all .4s ease; /* Firefox */
+      -ms-transition: all .4s ease; /* IE 9 */
+      -o-transition: all .4s ease; /* Opera */
+      transition: all .4s ease;
     }
 
     nav ul li a:hover{
+      opacity: inherit;
       color: #eff1ed;
       text-decoration: none;
     }
@@ -360,7 +366,7 @@ textarea {
 
    .indexoferta article h2{
      color: #e67777;
-     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'Poiret One', cursive;
      font-size: 40px;
      font-weight: normal;
      opacity: 0.8;
@@ -412,6 +418,7 @@ textarea {
 
    .designweb h1{
      font-size: 28px;
+     font-family: 'Poiret One', cursive;
      color: #ff5964;
      opacity: .9;
      text-align: center;
