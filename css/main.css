@@ -100,10 +100,9 @@ textarea {
    /*REGRAS COMUNS*/
 
    body{
-     color: #383d3c;
-     /*background-color: #f7f8f9;*/
+     color: #7c7c7c;
      margin: 0;
-     font-family: 'Ubuntu', sans-serif;
+     font-family: 'Nunito Sans', sans-serif;
    }
 
    *{
@@ -129,7 +128,7 @@ textarea {
      text-decoration: none;
    }
 
-   .containerindex, .containerdesignweb, .follow{
+   .containerindex, .containerdesignweb, .containertraducao, .follow{
      width: 90%;
      margin: auto;
      padding: 10px 0;
@@ -146,10 +145,6 @@ textarea {
    /*END REGRAS COMUNS*/
 
    /*HEADER*/
-
-    header{
-
-    }
 
     .header2{
       display: flex;
@@ -203,17 +198,11 @@ textarea {
       font-weight: bold;
     }
 
-    nav a img{
-      width: 200px;
-      padding: 10px;
-      text-align: left;
-    }
-
     nav ul li a{
       font-family: 'Poiret One', cursive;
       font-weight: normal;
       font-size: 22px;
-      opacity: .6;
+      opacity: .7;
       display: inline-block;
       padding: 15px;
       width: 100%;
@@ -228,7 +217,6 @@ textarea {
     nav ul li a:hover{
       opacity: inherit;
       color: #eff1ed;
-      text-decoration: none;
     }
 
     /*END MENU JS*/
@@ -286,6 +274,10 @@ textarea {
      margin: auto;
      padding-right: 4px;
      font-size: 13px;
+   }
+
+   .under:hover{
+     text-decoration: underline;
    }
 
    .lingua ul img{
@@ -349,7 +341,6 @@ textarea {
       text-decoration: none;
     }
 
-
    /*END SLIDE RULES*/
 
    /*CONTAINER INDEX*/
@@ -373,10 +364,6 @@ textarea {
      margin-top: 5px;
    }
 
-   .indexoferta article p{
-     color: #7c7c7c;
-   }
-
    .indexoferta article a img{
      width: 80px;
    }
@@ -390,6 +377,10 @@ textarea {
 
    #mail{
      color: #ff5964;
+   }
+
+   #mail:hover{
+     text-decoration: underline;
    }
 
    .prop{
@@ -408,17 +399,19 @@ textarea {
 
    .prop:hover, #prop2:hover{
      background: #ff5964;
+     color: #eff1ed;
      opacity: 0.8;
      text-decoration: none;
    }
 
    /*END CONTAINER INDEX*/
 
-   /*START CONTAINER DESIGN WEB*/
+   /*CONTAINER DESIGN WEB*/
 
-   .designweb h1{
+   .designweb h1, .traducao h1{
      font-size: 28px;
      font-family: 'Poiret One', cursive;
+     font-weight: normal;
      color: #ff5964;
      opacity: .9;
      text-align: center;
@@ -439,7 +432,7 @@ textarea {
      font-weight: bold;
    }
 
-   .design1, .design2{
+   .design1, .design2, .traducao1{
      border: 6px #eff1ed solid;
      margin: 15px auto;
      padding: 18px;
@@ -491,6 +484,13 @@ textarea {
    }
 
    /*END CONTAINER DESIGN WEB*/
+
+   /*CONTAINER PAGINA TRADUCAO*/
+
+
+
+
+   /*END CONTAINER PAGINA TRADUCAO*/
 
 
    /*FOOTER*/
