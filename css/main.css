@@ -128,7 +128,7 @@ textarea {
      text-decoration: none;
    }
 
-   .containerindex, .containerdesignweb, .containertraducao, .follow{
+   .containerindex, .containerdesignweb, .containertraducao{
      width: 90%;
      margin: auto;
      padding: 10px 0;
@@ -149,10 +149,10 @@ textarea {
     .header2{
       display: flex;
       align-items: center;
-      justify-content: space-between;
       width: 100%;
+      padding: 10px 15px;
+      justify-content: space-between;
       z-index: 200;
-      padding: 10px;
       position: fixed;
       background-color: white;
     }
@@ -234,7 +234,7 @@ textarea {
    .follow{
      border-top: 4px #ff5964 solid;
      padding: 10px 0;
-     margin-top: 5px;
+     margin: 5px 20px;
    }
 
    .list-inline{
@@ -268,11 +268,12 @@ textarea {
 
    .lingua ul{
      display: flex;
+     flex-wrap: wrap;
    }
 
    .lingua ul li{
      margin: auto;
-     padding-right: 4px;
+     padding-right: 2px;
      font-size: 13px;
    }
 
@@ -413,14 +414,14 @@ textarea {
      font-family: 'Poiret One', cursive;
      font-weight: normal;
      color: #ff5964;
-     opacity: .9;
+     /*opacity: .9;*/
      text-align: center;
      text-transform: uppercase;
      line-height: 40px;
      letter-spacing: 2px;
    }
 
-   .designweb h2{
+   .designweb h2, .traducao1 h2{
      font-size: 24px;
      color: #7c7c7c;
      margin: 15px auto;
@@ -486,6 +487,17 @@ textarea {
    /*END CONTAINER DESIGN WEB*/
 
    /*CONTAINER PAGINA TRADUCAO*/
+
+   .traducao1 figure{
+     width: 80px;
+     margin: 10px auto;
+   }
+
+   .traducao1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
 
 
 
