@@ -519,7 +519,17 @@ textarea {
 
    /*CONTAINER EMPRESA*/
 
+   .empresa a{
+     color: #ff5964;
+   }
 
+   .empresa a:hover{
+     text-decoration: underline;
+   }
+
+   .empresa3 ul li{
+     padding-top: 15px;
+   }
 
 
    /* END CONTAINER EMPRESA*/
