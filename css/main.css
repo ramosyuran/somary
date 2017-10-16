@@ -129,7 +129,8 @@ textarea {
    }
 
    .containerindex, .containerdesignweb,
-   .containertraducao, .containerorientacao{
+   .containertraducao, .containerorientacao,
+   .containerempresa{
      width: 90%;
      margin: auto;
      padding: 10px 0;
@@ -411,7 +412,8 @@ textarea {
 
    /*CONTAINER DESIGN WEB*/
 
-   .designweb h1, .traducao h1, .orientacao h1{
+   .designweb h1, .traducao h1, .orientacao h1,
+   .empresa h1{
      font-size: 28px;
      font-family: 'Poiret One', cursive;
      font-weight: normal;
@@ -423,7 +425,8 @@ textarea {
      letter-spacing: 2px;
    }
 
-   .designweb h2, .traducao1 h2, .orientacao h2{
+   .designweb h2, .traducao1 h2, .orientacao h2,
+   .empresa h2{
      font-size: 24px;
      color: #7c7c7c;
      margin: 15px auto;
@@ -435,7 +438,9 @@ textarea {
      font-weight: bold;
    }
 
-   .design1, .design2, .traducao1, .orientacao1, .orientacao2{
+   .design1, .design2, .traducao1,
+   .orientacao1, .orientacao2, .empresa1,
+   .empresa2, .empresa3{
      border: 6px #eff1ed solid;
      margin: 15px auto;
      padding: 18px;
@@ -511,6 +516,13 @@ textarea {
    }
 
    /* END CONTAINER PAGINA ORIENTAÇAO*/
+
+   /*CONTAINER EMPRESA*/
+
+
+
+
+   /* END CONTAINER EMPRESA*/
 
 
    /*FOOTER*/
