@@ -272,12 +272,16 @@ textarea {
    .lingua ul{
      display: flex;
      flex-wrap: wrap;
+     justify-content: flex-end;
    }
 
    .lingua ul li{
-     margin: auto;
-     padding-right: 2px;
+     padding-right: 4px;
      font-size: 13px;
+   }
+
+   .container{
+     width: 100%;
    }
 
    .under:hover{
@@ -425,6 +429,13 @@ textarea {
      letter-spacing: 2px;
    }
 
+   .subtitle{
+     width: 100%;
+     border-top: 1px #ccc solid;
+     text-align: center;
+     padding-top: 15px;
+   }
+
    .designweb h2, .traducao1 h2, .orientacao h2,
    .empresa h2{
      font-size: 24px;
@@ -565,6 +576,125 @@ textarea {
    }
 
    /*FOOTER END*/
+
+   @media (min-width: 768px) {
+
+      /*HEADER FOR TABLET*/
+
+     .header1{
+       padding-top: 62px;
+     }
+
+     .header2{
+       padding: 6px 15px;
+     }
+
+     nav{
+       margin-top: 61px;
+     }
+
+     .follow{
+       padding: 10px 0 0px 0;
+     }
+
+     .list-inline{
+       margin-bottom: 8px;
+     }
+
+     /*END HEADER FOR TABLET*/
+
+     /*GENERAL FOR ALL PAGES*/
+
+     #captioned-gallery{
+      width: 100%;
+      height: 330px;
+    }
+
+    .slider figure {
+      height: 330px;
+    }
+
+    .slider img {
+      height: 330px;
+    }
+
+    .indexproposta{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .indexproposta article{
+      width: 70%;
+    }
+
+    .prop{
+      width: 168px;
+    }
+
+    /*END GENERAL FOR ALL PAGES*/
+
+    /*PAGE INDEX*/
+
+    .indexoferta{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .indexoferta article{
+      width: 40%;
+    }
+
+    /*END PAGE INDEX*/
+
+    /*PAGE WEB DESIGN*/
+
+
+
+
+
+    /*END PAGE WEB DESIGN*/
+
+
+    /*FOOTER*/
+
+    .direito{
+      justify-content: flex-start;
+      width: 45%;
+    }
+
+    .end2{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .end2 ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      margin: auto;
+      width: 45%;
+    }
+
+    .end2 ul li{
+      padding-right: 4px;
+      font-size: 13px;
+    }
+
+    .end2 ul li:hover{
+      color: #ccc;
+    }
+
+    .end2 ul img{
+      width: 25px;
+    }
+
+    /*END FOOTER*/
+
+   }
 
 
 
