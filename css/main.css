@@ -451,7 +451,7 @@ textarea {
 
    .design1, .design2, .traducao1,
    .orientacao1, .orientacao2, .empresa1,
-   .empresa2, .empresa3{
+   .empresa2, .empresa3, .design22, .design3{
      border: 6px #eff1ed solid;
      margin: 15px auto;
      padding: 18px;
@@ -461,11 +461,11 @@ textarea {
      margin: 4px auto;
    }
 
-   .design2 a{
+   .design3 a{
      color: #ff5964;
    }
 
-   .design2 a:hover{
+   .design3 a:hover{
      text-decoration: underline;
    }
 
@@ -651,12 +651,135 @@ textarea {
 
     /*PAGE WEB DESIGN*/
 
+    .design1{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
 
+    .designtext1 h2, .suporteend h3{
+      margin-top: 0;
+    }
 
+    .design1 figure{
+      width: 45%;
+    }
 
+    .designtext1{
+      width: 50%;
+    }
+
+    .designtext2{
+      width: 100%;
+    }
+
+    .meio{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .meio2{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    #proj, #prop2, .design22{
+      width: 48%;
+    }
+
+    .suporteend{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      margin-top: 40px;
+    }
+
+    .suporteend article{
+      width: 60%;
+    }
+
+    .suporteend figure{
+      width: 35%;
+    }
 
     /*END PAGE WEB DESIGN*/
 
+    /*PAGE ORIENTACAO*/
+
+    #figurepc{
+      display: block;
+    }
+
+    .orientacao1, .orientacao2{
+      margin: 0 0 15px 0;
+      width: 70%;
+    }
+
+    .orientacaostyle1 figure{
+      width: 28%;
+    }
+
+    .orientacaostyle1 figure img{
+      border-radius: 50%;
+    }
+
+    .orientacaostyle1{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+    }
+
+    /*END PAGE ORIENTAÇAO*/
+
+    /*PAGE TRADUCAO*/
+
+    .traducao{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .traducao h1{
+      width: 100%;
+    }
+
+    .traducao1{
+      width: 45%;
+      margin: 20px 0;
+    }
+
+    /*END PAGE TRADUCAO*/
+
+    /*PAGE EMPRESA*/
+
+    .empresa{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .empresa h1{
+      width: 100%;
+    }
+
+    .empresa1{
+      width: 65%;
+      margin: 20px 0;
+    }
+
+    .empresa2{
+      width: 30%;
+      margin: 20px 0;
+    }
+
+    .empresa3{
+      width: 100%;
+    }
+
+
+    /*END PAGE EMPRESA*/
 
     /*FOOTER*/
 
