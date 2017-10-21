@@ -100,7 +100,7 @@ textarea {
    /*REGRAS COMUNS*/
 
    body{
-     color: #7c7c7c;
+     color: #4c4c4c;
      margin: 0;
      font-family: 'Nunito Sans', sans-serif;
    }
@@ -192,9 +192,9 @@ textarea {
       margin: 0;
       margin-top: 65px;
       position: fixed;
-      background: #383d3b;
+      background: #333333;
       z-index: 100;
-      opacity: 0.95;
+      opacity: 0.99;
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 3px;
@@ -203,13 +203,13 @@ textarea {
 
     .navmobile ul li a{
       font-family: 'Poiret One', cursive;
-      font-weight: normal;
+      font-weight: normal: ;
       font-size: 22px;
       opacity: .7;
       display: inline-block;
       padding: 15px;
       width: 100%;
-      color: #eff1ed;
+      color: white;
       -webkit-transition: all .4s ease; /* Safari and Chrome */
       -moz-transition: all .4s ease; /* Firefox */
       -ms-transition: all .4s ease; /* IE 9 */
@@ -235,7 +235,7 @@ textarea {
    }
 
    .follow{
-     border-top: 4px #ff5964 solid;
+     border-top: 4px #dd4d57 solid;
      padding: 10px 0;
      margin: 5px 20px;
    }
@@ -245,7 +245,7 @@ textarea {
    }
 
    .follow a{
-     color: #7c7c7c;
+     color: #383838;
      margin-left: 5px;
    }
 
@@ -289,11 +289,11 @@ textarea {
    }
 
    .under:hover{
-     text-decoration: underline;
+     color: #7c7c7c;
    }
 
    .lingua ul img{
-     width: 25px;
+     width: 20px;
    }
 
    /*END HEADER1*/
@@ -349,8 +349,8 @@ textarea {
     }
 
     .slider figure figcaption a:hover{
-      color: #ff5964;
-      opacity: 0.8;
+      color: #eff1ed;
+      opacity: 0.5;
       text-decoration: none;
     }
 
@@ -369,7 +369,7 @@ textarea {
    }
 
    .indexoferta article h2{
-     color: #e67777;
+     color: #dd4d57;
      font-family: 'Poiret One', cursive;
      font-size: 40px;
      font-weight: normal;
@@ -389,7 +389,7 @@ textarea {
    }
 
    #mail{
-     color: #ff5964;
+     color: #dd4d57;
    }
 
    #mail:hover{
@@ -397,7 +397,7 @@ textarea {
    }
 
    .prop{
-     background: #ff5964;
+     background: #dd4d57;
      width: 100%;
      border-radius: 8px;
      text-transform: uppercase;
@@ -411,7 +411,7 @@ textarea {
    }
 
    .prop:hover, #prop2:hover{
-     background: #ff5964;
+     background: #dd4d57;
      color: #eff1ed;
      opacity: 0.8;
      text-decoration: none;
@@ -426,7 +426,7 @@ textarea {
      font-size: 28px;
      font-family: 'Poiret One', cursive;
      font-weight: normal;
-     color: #ff5964;
+     color: #dd4d57;
      /*opacity: .9;*/
      text-align: center;
      text-transform: uppercase;
@@ -458,7 +458,7 @@ textarea {
    .orientacao1, .orientacao2, .empresa1,
    .empresa2, .empresa3, .design22, .design3{
      border: 6px #eff1ed solid;
-     margin: 15px auto;
+     margin: 15px 0;
      padding: 18px;
    }
 
@@ -467,7 +467,7 @@ textarea {
    }
 
    .design3 a{
-     color: #ff5964;
+     color: #dd4d57;
    }
 
    .design3 a:hover{
@@ -504,7 +504,7 @@ textarea {
    }
 
    #prop2{
-     background-color: #ff5964;
+     background-color: #dd4d57;
    }
 
    /*END CONTAINER DESIGN WEB*/
@@ -536,7 +536,7 @@ textarea {
    /*CONTAINER EMPRESA*/
 
    .empresa a{
-     color: #ff5964;
+     color: #dd4d57;
    }
 
    .empresa a:hover{
@@ -816,7 +816,7 @@ textarea {
     }
 
     .end2 ul img{
-      width: 25px;
+      width: 20px;
     }
 
     /*END FOOTER*/
@@ -919,11 +919,11 @@ textarea {
 
     .nav > li:hover,
     .nav > li:hover > a {
-      border-bottom-color: #ff5964;
+      border-bottom-color: #dd4d57;
     }
 
     .nav li a span{
-      border-bottom: 4px #ff5964 solid;
+      border-bottom: 4px #dd4d57 solid;
       padding-bottom: 12px;
       width: 100%;
     }
@@ -943,7 +943,7 @@ textarea {
     .nav > li:last-child {
       border-radius: 0 0 4px 0;
       margin-right: 0;
-      /*background: #ff5964;*/
+      /*background: #dd4d57;*/
     }
 
     .nav > li:last-child > a {
@@ -968,7 +968,7 @@ textarea {
      .nav ul {
       position: absolute;
       white-space: nowrap;
-      border-bottom: 4px solid  #ff5964;
+      border-bottom: 4px solid #dd4d57;
       z-index: 1;
       left: -99999em;
     }
@@ -986,20 +986,20 @@ textarea {
     /* arrow hover styling */
 
     .nav > li > a:first-child:nth-last-child(2):before {
-      border-top-color: #ff5964;
+      border-top-color: #dd4d57;
     }
     .nav > li:hover > a:first-child:nth-last-child(2):before {
       border: 4px solid transparent;
-      border-bottom-color: #ff5964;
+      border-bottom-color: #dd4d57;
       margin-top:-5px
     }
     .nav li li > a:first-child:nth-last-child(2):before {
-      border-left-color: #ff5964;
+      border-left-color: #dd4d57;
       margin-top: -5px
     }
     .nav li li:hover > a:first-child:nth-last-child(2):before {
       border: 4px solid transparent;
-      border-right-color: #ff5964;
+      border-right-color: #dd4d57;
       right: 10px;
     }
 
