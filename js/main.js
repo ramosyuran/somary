@@ -26,23 +26,19 @@ $(document).ready(function(){
 
 });
 
-$(document).ready(main);
-var contador = 1;
-function main(){
-  $('.menu_bar').click(function(){
-    if(contador == 1){
-      $('nav').animate({
-        left: '0'
-      });
-      contador = 0;
+$(document).ready(function(){
 
-    } else {
-      contador = 1;
-      $('nav').animate({
-        left: '-100%'
-      });
+    (function($) {
 
-    }
+        $('#header__icon').click(function(e){
+            e.preventDefault();
+            $('body').toggleClass('with--sidebar');
+        });
 
-  });
-}
+    $('#site-cache').click(function(e){
+      $('body').removeClass('with--sidebar');
+    });
+
+    })(jQuery);
+
+});
