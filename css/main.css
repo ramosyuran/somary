@@ -949,7 +949,7 @@ textarea {
       justify-content: space-between;
       width: 95%;
       margin: auto;
-      padding: 0;
+      padding: 0 1em;
     }
 
     /*end general rules*/
@@ -1093,10 +1093,43 @@ textarea {
 
     /*end nav for pc*/
 
-    /*page index for pc*/
+   }
+
+   @media (min-width: 1244px){
+
+      /*header */
 
 
-    /*end page index for pc*/
+     .header1, .navpc{
+       width: 90%;
+     }
+
+     .header1{
+       padding: 0 1.5em;
+     }
+
+     .nav a {
+       padding: 0.8em 1.5em;
+     }
+
+     /*end header*/
+
+
+     /*page index for pc*/
+
+     .indexoferta article{
+       width: 30%;
+     }
+
+     .containerindex, .containerempresa, .containertraducao,
+     .containerorientacao, .containerdesignweb{
+       width: 85%;
+     }
+
+
+     /*end page index for pc*/
+
+
 
    }
 
