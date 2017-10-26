@@ -151,21 +151,10 @@ textarea {
 
    /*HEADER*/
 
-    .header2{
-      display: flex;
-      align-items: center;
-      width: 100%;
-      padding: 10px 15px;
-      justify-content: space-between;
-      z-index: 200;
-      position: fixed;
-      background-color: white;
-      opacity: 0.9;
-    }
-
     .header1{
       padding-top: 70px;
     }
+
 
     /*MENU JS for mobile*/
 
@@ -182,6 +171,7 @@ textarea {
    .site-content {
      padding-top: 66px;
    }
+
 
    /* MENU */
 
@@ -682,25 +672,10 @@ textarea {
 
       /*HEADER FOR TABLET*/
 
-     .header1{
-       padding-top: 62px;
-     }
-
-     .header2{
-       padding: 6px 15px;
-     }
-
-     nav{
-       margin-top: 61px;
-     }
-
-     .follow{
-       padding: 10px 0 0px 0;
-     }
-
-     .list-inline{
-       margin-bottom: 8px;
-     }
+      .list-inline{
+        width: 95%;
+        margin-bottom: 5px;
+      }
 
      /*END HEADER FOR TABLET*/
 
