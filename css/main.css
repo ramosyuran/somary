@@ -169,7 +169,7 @@ textarea {
 
     /*MENU JS for mobile*/
 
-    .teste{
+    .headerpc{
       display: none;
     }
 
@@ -303,10 +303,6 @@ textarea {
      right: 0;
      bottom: 0;
      background-color: rgba(0, 0, 0, 0.6);
-   }
-
-   header{
-     display: none;
    }
 
     /*END MENU JS*/
@@ -940,7 +936,7 @@ textarea {
        display: none;
      }
 
-     .teste{
+     .headerpc{
        display: block;
      }
 
