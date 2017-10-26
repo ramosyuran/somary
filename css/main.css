@@ -921,15 +921,15 @@ textarea {
 
      .captioned-gallery{
       width: 100%;
-      height: 500px;
+      height: 70vh;
     }
 
     .slider figure {
-      height: 500px;
+      height: 70vh;
     }
 
     .slider img {
-      height: 500px;
+      height: 70vh;
     }
 
     .follow{
@@ -1132,8 +1132,6 @@ textarea {
 
 
      /*end page index for pc*/
-
-
 
    }
 
