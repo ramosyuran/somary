@@ -27,6 +27,26 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#tt").hover(
+        function() {$(this).attr("src","img/tt2.svg");},
+        function() {$(this).attr("src","img/tt.svg");
+    });
+    $("#ti").hover(
+        function() {$(this).attr("src","img/ti2.svg");},
+        function() {$(this).attr("src","img/ti.svg");
+    });
+    $("#tc").hover(
+        function() {$(this).attr("src","img/tc2.svg");},
+        function() {$(this).attr("src","img/tc.svg");
+    });
+    $("#tv").hover(
+        function() {$(this).attr("src","img/tv2.svg");},
+        function() {$(this).attr("src","img/tv.svg");
+    });
+
+});
+
+$(document).ready(function(){
 
     (function($) {
 

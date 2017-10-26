@@ -608,6 +608,10 @@ textarea {
      align-items: center;
    }
 
+   .traducao1 img{
+     cursor: pointer;
+   }
+
    /*END CONTAINER PAGINA TRADUCAO*/
 
    /*CONTAINER PAGINA ORIENTAÇAO*/
