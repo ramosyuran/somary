@@ -928,13 +928,14 @@ textarea {
       height: 500px;
     }
 
-    .header2{
-      display: none;
-    }
-
     .follow{
       margin: 0;
       width: 35%;
+      padding: 10px 0;
+    }
+
+    .list-inline{
+      width: 90%;
     }
 
     .logo1{
@@ -946,12 +947,9 @@ textarea {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 1em;
-    }
-
-    header{
-      width: 90%;
+      width: 95%;
       margin: auto;
+      padding: 0;
     }
 
     /*end general rules*/
@@ -961,6 +959,8 @@ textarea {
     .navpc{
       display: block;
       margin-top: 10px;
+      width: 95%;
+      margin: auto;
     }
 
     .navpc ul {
@@ -973,7 +973,7 @@ textarea {
       display:block;
       color: #7c7c7c;
       text-decoration: none;
-      padding: 0.8em 1.5em;
+      padding: 0.8em 1em;
       text-transform: uppercase;
       font-size: 14px;
       letter-spacing: 3px;
@@ -1092,6 +1092,11 @@ textarea {
     }
 
     /*end nav for pc*/
+
+    /*page index for pc*/
+
+
+    /*end page index for pc*/
 
    }
 
