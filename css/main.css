@@ -203,9 +203,10 @@ textarea {
      font-size: 18px;
      text-transform: uppercase;
      display: block;
-     height: 40px;
+     height: 50px;
      padding-bottom: 50px;
      text-align: center;
+     letter-spacing: 2px;
    }
 
    .site-pusher,
@@ -323,7 +324,7 @@ textarea {
    .list-inline{
      text-align: right;
      width: 90%;
-     margin: auto;
+     margin: 10px auto;
    }
 
    .follow a, .follow2 a{
@@ -356,7 +357,8 @@ textarea {
    }
 
    .fa-2x{
-     font-size: 1.5em;
+     font-size: 1.6em;
+     margin-left: 5px;
    }
 
    .lingua ul{
@@ -474,12 +476,13 @@ textarea {
      text-align: justify;
    }
 
-   #mail{
+   .mailphone{
      color: #dd4d57;
    }
 
-   #mail:hover{
+   .mailphone:hover{
      text-decoration: underline;
+     color: #dd4d57;
    }
 
    .prop{
@@ -709,7 +712,7 @@ textarea {
     }
 
     .prop{
-      width: 168px;
+      width: 170px;
     }
 
     /*END GENERAL FOR ALL PAGES*/
@@ -721,6 +724,7 @@ textarea {
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
+      width: 100%;
     }
 
     .indexoferta article{
