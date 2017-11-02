@@ -180,7 +180,7 @@ textarea {
    }
 
    .menu a:hover{
-     color: #dd4d57;
+     color: #a1437f;
    }
 
    .menu img{
@@ -280,7 +280,7 @@ textarea {
      height: 0;
      top: 16px;
      left: 15px;
-     box-shadow: 0 10px 0 1px #4c4c4c, 0 16px 0 1px #4c4c4c, 0 22px 0 1px #4c4c4c;
+     box-shadow: 0 10px 0 1px #5c2648, 0 16px 0 1px #5c2648, 0 22px 0 1px #5c2648;
    }
 
    .with--sidebar .site-pusher {
@@ -309,7 +309,7 @@ textarea {
    }
 
    .follow, .follow2{
-     border-top: 4px #dd4d57 solid;
+     border-top: 4px #a1437f solid;
      padding: 10px;
    }
 
@@ -457,7 +457,7 @@ textarea {
    }
 
    .indexoferta article h2{
-     color: #dd4d57;
+     color: #a1437f;
      font-family: 'Poiret One', cursive;
      font-size: 40px;
      font-weight: normal;
@@ -477,16 +477,16 @@ textarea {
    }
 
    .mailphone{
-     color: #dd4d57;
+     color: #8a396d;
    }
 
    .mailphone:hover{
      text-decoration: underline;
-     color: #dd4d57;
+     color: #8a396d;
    }
 
    .prop{
-     background: #dd4d57;
+     background: #8a396d;
      width: 100%;
      border-radius: 8px;
      text-transform: uppercase;
@@ -500,7 +500,7 @@ textarea {
    }
 
    .prop:hover, #prop2:hover{
-     background: #dd4d57;
+     background: #8a396d;
      color: #eff1ed;
      opacity: 0.8;
      text-decoration: none;
@@ -515,7 +515,7 @@ textarea {
      font-size: 28px;
      font-family: 'Poiret One', cursive;
      font-weight: normal;
-     color: #dd4d57;
+     color: #a1437f;
      /*opacity: .9;*/
      text-align: center;
      text-transform: uppercase;
@@ -556,7 +556,7 @@ textarea {
    }
 
    .design3 a{
-     color: #dd4d57;
+     color: #8a396d;
    }
 
    .design3 a:hover{
@@ -593,7 +593,7 @@ textarea {
    }
 
    #prop2{
-     background-color: #dd4d57;
+     background-color: #8a396d;
    }
 
    /*END CONTAINER DESIGN WEB*/
@@ -629,7 +629,7 @@ textarea {
    /*CONTAINER EMPRESA*/
 
    .empresa a{
-     color: #dd4d57;
+     color: #a1437f;
    }
 
    .empresa a:hover{
@@ -648,7 +648,7 @@ textarea {
 
    .end2{
      background: #7c7c7c;
-     color: #eff1ed;
+     color: white;
    }
 
    .end2 ul{
@@ -670,7 +670,7 @@ textarea {
    }
 
    .direito figure{
-     width: 100px;
+     width: 90px;
    }
 
    /*FOOTER END*/
@@ -1015,11 +1015,11 @@ textarea {
 
     .nav > li:hover,
     .nav > li:hover > a {
-      border-bottom-color: #dd4d57;
+      border-bottom-color: #a1437f;
     }
 
     .nav li a span{
-      border-bottom: 4px #dd4d57 solid;
+      border-bottom: 4px #a1437f solid;
       padding-bottom: 12px;
       width: 100%;
     }
@@ -1039,7 +1039,7 @@ textarea {
     .nav > li:last-child {
       border-radius: 0 0 4px 0;
       margin-right: 0;
-      /*background: #dd4d57;*/
+      /*background: #a1437f;*/
     }
 
     .nav > li:last-child > a {
@@ -1064,7 +1064,7 @@ textarea {
      .nav ul {
       position: absolute;
       white-space: nowrap;
-      border-bottom: 4px solid #dd4d57;
+      border-bottom: 4px solid #a1437f;
       z-index: 1;
       left: -99999em;
     }
@@ -1082,20 +1082,20 @@ textarea {
     /* arrow hover styling */
 
     .nav > li > a:first-child:nth-last-child(2):before {
-      border-top-color: #dd4d57;
+      border-top-color: #a1437f;
     }
     .nav > li:hover > a:first-child:nth-last-child(2):before {
       border: 4px solid transparent;
-      border-bottom-color: #dd4d57;
+      border-bottom-color: #a1437f;
       margin-top:-5px
     }
     .nav li li > a:first-child:nth-last-child(2):before {
-      border-left-color: #dd4d57;
+      border-left-color: #a1437f;
       margin-top: -5px
     }
     .nav li li:hover > a:first-child:nth-last-child(2):before {
       border: 4px solid transparent;
-      border-right-color: #dd4d57;
+      border-right-color: #a1437f;
       right: 10px;
     }
 
