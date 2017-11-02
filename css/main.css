@@ -200,7 +200,7 @@ textarea {
 
    .menu a {
      font-family: 'Poiret One', cursive;
-     font-size: 18px;
+     font-size: 17px;
      text-transform: uppercase;
      display: block;
      height: 50px;
@@ -594,6 +594,10 @@ textarea {
 
    #prop2{
      background-color: #8a396d;
+   }
+
+   .lilas{
+     color: #8a396d;
    }
 
    /*END CONTAINER DESIGN WEB*/
